@@ -12,7 +12,7 @@ body{
   background-image: url('/assets/starwarsbg.jpeg');
   background-attachment:fixed; 
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 #topImg{

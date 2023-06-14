@@ -20,3 +20,6 @@ You are to create a SPA (Single Page Application) using HTML, CSS and JavaScript
 5. When you are done, host your application on netlify (submit link should be added to your turned in field on Teams)
 
 
+### Deployment Link
+
+https://main--cheery-rugelach-bb559d.netlify.app/
