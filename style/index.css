@@ -1,0 +1,81 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*background-color: rgb(223, 255, 127);
+  /* background-color: aqua; */
+  
+}
+body{
+  background-image: url('/assets/starwarsbg.jpeg');
+  background-attachment:fixed; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#topImg{
+  width: 10%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#container{  
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  gap: 40px;
+  padding: 50px;
+  justify-content: center;
+  
+}
+
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  color:rgb(158, 184, 236);
+  margin-top: 0;
+}
+
+p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(247, 228, 19);
+  margin-bottom: 30px;
+}
+  img{
+    border-radius: 50%;
+  }
+
+  button{
+    text-decoration: none;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(8, 33, 83);
+    /* background-color: rgb(97, 141, 229); */
+    padding: 13px;
+    width: 100%;
+    color: rgb(247, 228, 19);
+  }
+
+  .fN{
+    background-color: rgba(255, 200, 0, 0.743);
+  }
+
+  /* @media screen and (max-width: 768px) {
+    
+  } */
+
+  @media only screen and (max-width: 320px){
+    body{
+      background-image: url('assets/starwarsbg.jpeg');
+      background-attachment:fixed; 
+      background-size: 100%;
+    }
+  }
